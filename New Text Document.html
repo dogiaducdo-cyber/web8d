@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>web8d - Lớp 8D THCS Gia Sinh</title>
+
+    <meta name="description" content="Website lớp 8D – Trường THCS Gia Sinh, tỉnh Ninh Bình">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:title" content="web8d - Lớp 8D THCS Gia Sinh">
+    <meta property="og:description" content="Trang thông tin, hình ảnh và video hoạt động của lớp 8D">
+    <meta property="og:type" content="website">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f2f4f8;
+            line-height: 1.6;
+        }
+        header {
+            background: #1976d2;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        nav {
+            background: #0d47a1;
+            text-align: center;
+            padding: 12px;
+            position: sticky;
+            top: 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            background: white;
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #1976d2;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        video {
+            width: 100%;
+            max-width: 720px;
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 18px;
+            background: #e3eaf2;
+            color: #444;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>web8d</h1>
+    <p>Website lớp 8D – Trường THCS Gia Sinh</p>
+</header>
+
+<nav>
+    <a href="#gioithieu">Giới thiệu</a>
+    <a href="#hinhanh">Hình ảnh</a>
+    <a href="#video">Video</a>
+    <a href="#bando">Bản đồ</a>
+</nav>
+
+<section id="gioithieu">
+    <h2>📌 Giới thiệu</h2>
+    <p><strong>Lớp:</strong> 8D</p>
+    <p><strong>Trường:</strong> THCS Gia Sinh</p>
+    <p><strong>Địa chỉ:</strong> Tổ dân phố 4, phường Tây Hoa Lư, tỉnh Ninh Bình</p>
+    <p>
+        Đây là website giới thiệu thông tin, hình ảnh và video
+        về các hoạt động học tập – sinh hoạt của tập thể lớp 8D.
+    </p>
+</section>
+
+<section id="hinhanh">
+    <h2>🖼️ Hình ảnh lớp 8D</h2>
+    <div class="gallery">
+        <img src="anh1.jpg" alt="Ảnh lớp 8D 1">
+        <img src="anh2.jpg" alt="Ảnh lớp 8D 2">
+        <img src="anh3.jpg" alt="Ảnh lớp 8D 3">
+        <img src="anh4.jpg" alt="Ảnh lớp 8D 4">
+        <img src="anh5.jpg" alt="Ảnh lớp 8D 5">
+    </div>
+</section>
+
+<section id="video">
+    <h2>🎬 Video hoạt động</h2>
+
+    <video controls>
+        <source src="video1.mp4" type="video/mp4">
+        Trình duyệt không hỗ trợ video.
+    </video>
+
+    <video controls>
+        <source src="video2.mp4" type="video/mp4">
+        Trình duyệt không hỗ trợ video.
+    </video>
+</section>
+
+<section id="bando">
+    <h2>🗺️ Bản đồ Trường THCS Gia Sinh</h2>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.553776353773!2d105.8649147!3d20.2835274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31367ff49bc0fc23%3A0xbd6d09f7a1c44567!2zVHLGsOG7nW5nIFRIQ1MgR2lhIFNpbmg!5e0!3m2!1svi!2s"
+        width="100%"
+        height="420"
+        style="border:0; border-radius:12px;"
+        loading="lazy">
+    </iframe>
+</section>
+
+<footer>
+    © 2026 web8d – Lớp 8D – THCS Gia Sinh
+</footer>
+
+</body>
+</html>
